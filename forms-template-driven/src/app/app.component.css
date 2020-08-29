@@ -1,0 +1,12 @@
+.container {
+    margin-top: 30px;
+}
+
+/* Only apply after user touches for the 1st Time */
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+.help-block {
+    color: red;
+}
