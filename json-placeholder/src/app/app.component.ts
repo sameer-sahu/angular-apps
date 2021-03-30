@@ -12,6 +12,8 @@ export class AppComponent implements OnInit {
   title = 'json-placeholder';
   posts: Post[] = [];
 
+  searchPost: number;
+
   constructor(private appService: AppService) {}
 
   // Runs on start up the component
